@@ -2,3 +2,5 @@ tsconfig.json
 tslint.json
 *.code-workspace
 .DS_STORE
+test/**
+webpack.config.json
