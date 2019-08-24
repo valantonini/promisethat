@@ -1,0 +1,42 @@
+{
+  "name": "promisethat",
+  "version": "1.0.0",
+  "description": "Helper functions for quickly wrapping mock data in promises for unit tests",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "test": "mocha-webpack ./test/unit/**/*.ts",
+    "lint": "tslint --fix --project .",
+    "publish": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valantonini/promisethat.git"
+  },
+  "keywords": [
+    "promise",
+    "mocha",
+    "jest",
+    "testing"
+  ],
+  "author": "val antonini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valantonini/promisethat/issues"
+  },
+  "homepage": "https://github.com/valantonini/promisethat#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "mocha-webpack": "^2.0.0-beta.0",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.19.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}

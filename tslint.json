@@ -1,0 +1,18 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "cyclomatic-complexity": [true, 10],
+        "quotemark": [true, "double"]
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+      "exclude": [
+        "node_modules/**",
+        "webpack.config.js"
+      ]
+    }
+}
