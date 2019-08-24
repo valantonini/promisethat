@@ -1,8 +1,9 @@
 {
   "name": "promisethat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Helper functions for quickly wrapping mock data in promises for unit tests",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "scripts": {
     "build": "webpack --mode development",
     "test": "mocha-webpack ./test/unit/**/*.ts",
