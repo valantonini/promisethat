@@ -4,3 +4,4 @@ tslint.json
 .DS_STORE
 test/**
 webpack.config.json
+.travis.yml
