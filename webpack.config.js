@@ -47,5 +47,6 @@ module.exports = {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     library: "promisethat",
+    libraryTarget: "umd"
   }
 };
