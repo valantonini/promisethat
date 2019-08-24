@@ -1,6 +1,11 @@
-# promiseThat
+# promisethat
 
 Helper functions for quickly wrapping mock data in promises for unit tests.
+
+## usage
+```bash
+npm install promisethat --save-dev
+```
 
 e.g.:
 
