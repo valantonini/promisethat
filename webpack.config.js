@@ -47,6 +47,7 @@ module.exports = {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     library: "promisethat",
-    libraryTarget: "commonjs-module"
+    libraryTarget: "commonjs-module",
+    libraryExport: "default"
   }
 };

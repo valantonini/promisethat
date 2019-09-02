@@ -11,12 +11,9 @@ function rejectsWith<T>(data: T): Promise<T> {
     });
 }
 
-const promiseThat = {
+const promisethat = {
     rejectsWith,
     resolvesWith,
 };
 
-export default promiseThat;
-
-export { resolvesWith as promiseThatResolvesWith };
-export { rejectsWith as promiseThatRejectsWith };
+export default promisethat;
