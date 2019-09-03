@@ -8,7 +8,7 @@ module.exports = {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     //library: "promisethat",
-    libraryTarget: 'commonjs',
+    libraryTarget: 'commonjs-module',
   },
   module: {
     rules: [{
