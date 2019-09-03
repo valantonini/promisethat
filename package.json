@@ -1,6 +1,6 @@
 {
   "name": "promisethat",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Helper functions for quickly wrapping mock data in promises for unit tests",
   "main": "dist/index.js",
   "module": "dist/index.js",
