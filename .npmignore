@@ -5,3 +5,5 @@ tslint.json
 test/**
 webpack.config.json
 .travis.yml
+src
+webpack.config.js
