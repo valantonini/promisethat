@@ -4,6 +4,7 @@
   "description": "Helper functions for quickly wrapping mock data in promises for unit tests",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "webpack --mode development",
     "test": "mocha-webpack ./test/unit/**/*.ts",
@@ -38,7 +39,7 @@
     "tslint": "^5.19.0",
     "tslint-loader": "^3.5.4",
     "typescript": "^3.5.3",
-    "webpack": "^4.39.2",
+    "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
   }
 }

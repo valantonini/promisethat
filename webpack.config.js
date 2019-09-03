@@ -47,7 +47,9 @@ module.exports = {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     library: "promisethat",
-    libraryTarget: "commonjs-module",
-    libraryExport: "default"
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
+    globalObject: `(typeof self !== 'undefined' ? self : this)`
+    //libraryExport: "default"
   }
 };
