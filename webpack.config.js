@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: './src/index.ts',
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   module: {
     rules: [{
         test: /\.ts$/,
@@ -50,6 +50,5 @@ module.exports = {
     libraryTarget: 'umd',
     umdNamedDefine: true,
     globalObject: `(typeof self !== 'undefined' ? self : this)`
-    //libraryExport: "default"
   }
 };
